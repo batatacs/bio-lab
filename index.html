@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório Biodiagnóstico</title>
+        <link href="img/favicon.png" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+
+
+    <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>R. Inácio Ribeiro, 193 - Centro, Santa Rita do Passa Quatro - SP, 13670-000</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Segunda-Sexta 06am-17pm, Sabado 06:30am-10:00am</small>
+                </div>
+                <!-- <nav class="breadcrumb mb-0">
+                    <a class="breadcrumb-item small text-body" href="#">Resultados de Exames Online</a>
+                </nav>     -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <i class="bi bi-telephone-inbound fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Ligue Agora</h5>
+                        <span>(19)3582-4570</span>
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0">Laboratório <span class="text1">Bio <span class="text2">Diagnóstico</span></span></a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">E-mail</h5>
+                        <span>info@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="sobre.html" class="nav-item nav-link">Sobre Nós</a>
+                        <a href="contato.html" class="nav-item nav-link">Contato</a>
+                        <a target="_blank" href="https://portal.worklabweb.com.br/resultados/2600?" class="nav-item nav-link">Resultados de Exames</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container-fluid header-carousel px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-6 text-white animated slideInRight mb-3">Bem vindo ao <span class="text1">Bio</span> <span class="text2">Diagnóstico</span></h1>
+                                    <p class="mb-5 animated slideInRight"><span class="text4">Nós somos um laboratório que se dedica a oferecer
+                                        exames e diagnósticos de alta precisão com um compromisso inabalável com a qualidade e o cuidado com a saúde de
+                                        nossos pacientes. Nossa equipe especializada e os nossos equipamentos de última geração garantem resultados
+                                        confiáveis e um atendimento humanizado. Assegure-se de que o Bio Diagnóstico cuide do seu bem-estar.</span></p>
+                                    <a href="sobre.html" class="btn btn-primary py-3 px-5 animated slideInRight">Sobre Nós</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-6 text-white animated slideInRight mb-3">Precisão Que Faz a Diferença: Confiança em Cada Exame</h1>
+                                    <p class="mb-5 animated slideInRight"><Span class="text3">Exames de precisão, resultados de confiança
+                                        No Bio Diagnóstico, cada exame é tratado com a máxima precisão para entregar resultados que você pode confiar. Com
+                                        tecnologia de última geração e um compromisso inabalável com a qualidade, garantimos que cada detalhe seja
+                                        cuidadosamente analisado. Porque para nós, a sua saúde é prioridade, e cada exame é um passo em direção ao cuidado que
+                                        você merece.</Span></p>
+                                    <a href="sobre.html" class="btn btn-primary py-3 px-5 animated slideInRight">Sobre Nós</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/about-1.png">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/about-2.png">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/about-3.png">
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-primary w-110 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center">
+                                <div class="icon-box-light">
+                                    <i class="bi bi-award text-dark"></i>
+                                </div>
+                                <h1 class="display-1 text-white mb-0" data-toggle="counter-up">10</h1>
+                                <small class="fs-5 text-white">Anos de experiência</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-4">Profissionais de Laboratório Confiáveis e as Tecnologias Mais Avançadas</h1>
+                    <p class="mb-4">Quando se trata da sua saúde, você merece o melhor. No Bio Diagnóstico, nossos especialistas combinam
+                        experiência incomparável com as mais recentes inovações tecnológicas para entregar resultados precisos e rápidos.
+                        Confie em quem é referência no setor e garante o cuidado que você e sua família merecem. Aqui, a precisão encontra a
+                        excelência.</p>
+                    <div class="row g-4 g-sm-5 justify-content-center">
+                        <div class="col-sm-6">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
+                                <p class="text-white mb-0">Prêmios</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">15</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-start">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
+                                <p class="text-white mb-0">Exames Mensais</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">10000</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
+                                <p class="text-white mb-0">Clientes satisfeitos</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">5000</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-0 feature-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-award text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Reconhecido e Premiado</h5>
+                        <p class="mb-0">Orgulhosamente, nossa excelência tem sido reconhecida com prêmios que atestam a qualidade e dedicação
+                            que colocamos em cada detalhe. Isso reflete nosso compromisso em oferecer sempre o melhor para nossos clientes.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-people text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Excelência em Análises Laboratoriais</h5>
+                        <p class="mb-0">Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos resultados precisos e confiáveis.
+                            Nossa expertise em análises laboratoriais é a garantia de um serviço que você pode confiar para cuidar da sua saúde.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-cash-coin text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Preços Justos</h5>
+                        <p class="mb-0">Oferecemos serviços de alta qualidade com preços que cabem no seu bolso. No Bio Diagnóstico, acreditamos
+                            que cuidar da sua saúde não precisa ser caro. Transparência e acessibilidade são nossas prioridades.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-headphones text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Suporte Dedicado</h5>
+                        <p class="mb-0">Nossa equipe está sempre pronta para ajudar. Seja qual for a sua necessidade, oferecemos suporte
+                            personalizado e atencioso, garantindo que você tenha a melhor experiência possível com nossos serviços.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6 pt-lg-5">
+                    <div class="bg-white p-5 mt-lg-5">
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">A Melhor Solução Laboratorial</h1>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Quando se trata de saúde, você merece o melhor. No
+                            Bio Diagnóstico,
+                            somos referência em análises laboratoriais, oferecendo precisão, rapidez e atendimento
+                            diferenciado. Nossa
+                            tecnologia de ponta e equipe de especialistas garantem resultados confiáveis, para que você
+                            possa tomar decisões com
+                            confiança. Não escolha qualquer laboratório – escolha a excelência que você merece. Escolha o
+                            Bio Diagnóstico.</p>
+                        <div>
+                            <div class="icon-box-primary mb-4">
+                                <i class="bi bi-person-plus text-dark"></i>
+                            </div>
+                            <h5 class="mb-3">Excelência em Biomedicina: Especialistas Dedicados ao Seu Bem-Estar</h5>
+                            <span>Aqui no Bio diagnóstico, acreditamos que cada pessoa é única e merece um cuidado especial.
+                                Nossos biomédicos
+                                especializados não são apenas experts em suas áreas, mas também apaixonados pelo que fazem.
+                                Estamos aqui para ouvir,
+                                entender e proporcionar a você resultados precisos com um toque humano. Seu bem-estar é
+                                nossa prioridade, e nossa
+                                missão é garantir que você se sinta apoiado e confiante em cada passo do caminho. Venha
+                                conhecer nossa equipe e
+                                experimente um atendimento que vai além do esperado.</span><br>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="sobre.html">Sobre Nós</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center justify-content-center" style="min-height: 300px;">
+                                <button type="button" class="btn-play" data-bs-toggle="modal"
+                                    data-src="img/laboratorio.mp4" data-bs-target="#videoModal">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="bg-primary p-5">
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Preparação de Amostras</span>
+                                        <span class="text-white">100%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Precisão do resultado</span>
+                                        <span class="text-white">100%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Tecnologia Avançada</span>
+                                        <span class="text-white">100%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Nosso laboratório</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid container-service py-5">
+        <div class="container pt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">Serviço de laboratório confiável e de alta qualidade.</h1>
+                <p class="mb-5">Experimente o futuro dos exames laboratoriais no Bio Diagnóstico. Com tecnologia avançada e precisão
+                    inigualável, garantimos resultados rápidos e confiáveis. Nossa equipe de especialistas está sempre pronta para
+                    oferecer o melhor atendimento, porque sua saúde merece o máximo cuidado. Bio Diagnóstico: onde a confiança encontra
+                    a inovação.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-heart-pulse text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Testes Patológicos</h4>
+                            <p class="mb-4">Os testes patológicos são essenciais para entender a saúde do paciente. Eles incluem exames
+                                laboratoriais que ajudam a diagnosticar doenças, monitorar condições e avaliar tratamentos, fornecendo informações
+                                detalhadas e precisas sobre o estado do organismo.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#testesPatologicosModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="testesPatologicosModal" tabindex="-1" aria-labelledby="testesPatologicosModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="testesPatologicosModalLabel">Mais sobre Testes Patológicos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <span><strong>Testes Patológicos: A Chave para Diagnósticos Precisos e Cuidados Eficazes</strong><br>
+                                        Os testes patológicos são fundamentais para a compreensão da saúde e bem-estar de um paciente. Eles envolvem uma série
+                                        de exames e análises laboratoriais que ajudam a diagnosticar doenças, monitorar condições de saúde e avaliar a eficácia
+                                        dos tratamentos. Combinando tecnologia avançada e expertise científica, esses testes permitem aos profissionais de saúde
+                                        obter informações detalhadas e precisas sobre o estado do organismo.<br>
+                                        O que são Testes Patológicos?<br>                                       
+                                        Testes patológicos referem-se a exames realizados em amostras de sangue, urina, tecidos e outros fluidos corporais para
+                                        identificar a presença de doenças e condições médicas. Esses testes podem variar desde simples análises de sangue até
+                                        biópsias complexas e culturas microbiológicas, cada um com seu papel específico na detecção e gestão de problemas de
+                                        saúde.<br>                                      
+                                        Por que os Testes Patológicos são Importantes?<br>                                       
+                                        Diagnóstico Preciso: Eles fornecem informações cruciais para um diagnóstico correto, ajudando os médicos a identificar
+                                        doenças de maneira mais eficaz e a distinguir entre condições semelhantes.<br>                                       
+                                        Monitoramento de Condições de Saúde: Testes regulares permitem o monitoramento contínuo de doenças crônicas e a
+                                        avaliação da eficácia dos tratamentos, possibilitando ajustes necessários para melhorar a saúde do paciente.                                        
+                                        Detecção Precoce: Muitos testes patológicos podem detectar condições de saúde antes que os sintomas se tornem evidentes,
+                                        permitindo intervenções precoces e melhorando as chances de sucesso no tratamento.                                        
+                                        Avaliação de Riscos: Eles ajudam a avaliar o risco de doenças futuras, como problemas cardiovasculares e diabetes,
+                                        permitindo a adoção de medidas preventivas.<br>
+                                        Tipos Comuns de Testes Patológicos<br>                                       
+                                        Exames de Sangue: Avaliam a presença de condições como anemia, diabetes, infecções e desordens do colesterol.
+                                        Análises de Urina: Detectam infecções, problemas renais e diabetes.<br>
+                                        Biópsias: Remoção e análise de tecido para diagnosticar câncer e outras condições.<br>
+                                        Culturas Microbiológicas: Identificam a presença de bactérias, fungos e outros patógenos no corpo.<br>
+                                        Conclusão<br>                                        
+                                        Os testes patológicos desempenham um papel vital na medicina moderna, fornecendo dados essenciais para diagnósticos,
+                                        tratamentos e prevenções. Ao realizar esses testes, você está investindo na sua saúde e garantindo que qualquer condição
+                                        possa ser tratada de forma eficaz e oportuna. Para obter os melhores resultados, é importante seguir as orientações
+                                        médicas e realizar os testes conforme recomendado.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-lungs text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Exames de Microbiologia</h4>
+                            <p class="mb-4">Descubra a importância dos exames de microbiologia para a detecção precisa de infecções e doenças.
+                                Nossos testes avançados identificam microrganismos patogênicos, garantindo diagnósticos rápidos e tratamentos
+                                eficazes. Confie em nossa expertise para cuidar da sua saúde</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesMicrobiologiaModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesMicrobiologiaModal" tabindex="-1" aria-labelledby="examesMicrobiologiaModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesMicrobiologiaModalLabel">Mais sobre Testes de Microbiologia</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>A microbiologia é o ramo da ciência que estuda microrganismos, como bactérias, vírus, fungos e protozoários. Esses
+                                organismos são invisíveis a olho nu, mas desempenham um papel crucial em várias áreas, desde a saúde humana até o meio
+                                ambiente e a indústria.<br>                                
+                                Na saúde, a microbiologia é essencial para entender e combater infecções. Exames de microbiologia identificam patógenos
+                                responsáveis por doenças, permitindo um diagnóstico preciso e o tratamento adequado. Esses exames incluem culturas,
+                                testes de sensibilidade a antibióticos, e técnicas moleculares como PCR, que detectam a presença de material genético de
+                                microrganismos.<br>                                
+                                Além disso, a microbiologia também é importante na produção de vacinas, no controle de surtos epidemiológicos e na
+                                garantia da segurança alimentar, ao monitorar e identificar contaminantes em alimentos e bebidas.<br>                                
+                                Em resumo, a microbiologia é uma disciplina fundamental que não só ajuda a proteger e melhorar a saúde humana, mas
+                                também contribui para avanços em várias indústrias e para a compreensão dos processos ecológicos.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-virus text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Exames de Bioquímica</h4>
+                            <p class="mb-4">Explore os exames de bioquímica, fundamentais para avaliar funções corporais e detectar desequilíbrios
+                                químicos. Nossos testes oferecem uma visão detalhada sobre o funcionamento dos seus órgãos, ajudando no diagnóstico
+                                e monitoramento de diversas condições de saúde. Cuide do seu bem-estar com precisão científica.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesBioquimicaModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesBioquimicaModal" tabindex="-1" aria-labelledby="examesBioquimicaModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesBioquimicaModalLabel">Mais sobre Exames de Bioquímica</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>A bioquímica é a ciência que estuda as reações químicas e os processos moleculares que ocorrem nos
+                                        organismos vivos. Ela combina princípios de química e biologia para entender como as moléculas que compõem os
+                                        seres vivos, como proteínas, lipídios, carboidratos e ácidos nucleicos, interagem e contribuem para o
+                                        funcionamento das células e dos organismos como um todo.<br>                                
+                                        No campo da saúde, a bioquímica é essencial para compreender o metabolismo e a regulação das funções corporais.
+                                        Exames de bioquímica clínica são realizados para analisar amostras de sangue, urina ou outros fluidos corporais.
+                                        Esses testes ajudam a avaliar o funcionamento de órgãos como fígado, rins, coração e pâncreas, além de monitorar
+                                        níveis de glicose, colesterol, enzimas, eletrólitos e outras substâncias cruciais para o diagnóstico e
+                                        acompanhamento de doenças.<br>                                        
+                                        Além disso, a bioquímica desempenha um papel central na pesquisa biomédica, contribuindo para o desenvolvimento
+                                        de novos medicamentos, terapias e vacinas. Ela também é vital para entender a base molecular de doenças
+                                        genéticas, câncer e outras condições crônicas.<br>                                
+                                        Em resumo, a bioquímica é uma disciplina fundamental que oferece insights detalhados sobre os processos vitais e
+                                        auxilia no diagnóstico, tratamento e prevenção de doenças, contribuindo significativamente para a medicina
+                                        moderna e a saúde pública.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-capsule-pill text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Exames de Histopatologia</h4>
+                            <p class="mb-4">Os exames de histopatologia são essenciais para diagnosticar e entender doenças a nível celular.
+                                Analisando tecidos e células, esses testes revelam detalhes cruciais sobre a presença de anomalias e o estágio de
+                                doenças como o câncer. Confie na precisão da histopatologia para obter diagnósticos aprofundados e direcionar
+                                tratamentos eficazes.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesHistopatologiaModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesHistopatologiaModal" tabindex="-1" aria-labelledby="examesHistopatologiaModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesHistopatologiaModalLabel">Mais sobre Exames de Hispatologia</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>A histopatologia é o estudo de tecidos biológicos para identificar alterações celulares que podem indicar doenças. Esse
+                                campo da patologia envolve a análise microscópica de amostras de tecido retiradas de biópsias, cirurgias ou autópsias. O
+                                objetivo principal é examinar a estrutura dos tecidos e células para detectar anomalias, como inflamações, infecções,
+                                tumores e outras condições patológicas.<br>                                
+                                No diagnóstico médico, a histopatologia é fundamental, especialmente em casos de câncer. Ao examinar amostras de tecido,
+                                os patologistas podem determinar se uma lesão é benigna ou maligna, identificar o tipo de câncer e avaliar seu estágio.
+                                Essas informações são cruciais para definir o tratamento mais adequado e prever o prognóstico do paciente.<br>                                
+                                O processo histopatológico geralmente envolve várias etapas: fixação do tecido (para preservá-lo), corte em fatias
+                                finas, coloração (para destacar diferentes componentes celulares) e análise microscópica. Em alguns casos, técnicas mais
+                                avançadas, como a imunohistoquímica, são usadas para identificar proteínas específicas que podem ajudar no diagnóstico.<br>                                
+                                Além do câncer, a histopatologia é útil para diagnosticar uma variedade de outras doenças, incluindo infecções, doenças
+                                autoimunes e desordens degenerativas.<br>                                
+                                Em resumo, a histopatologia é uma ferramenta diagnóstica vital que fornece uma visão detalhada da condição dos tecidos
+                                do corpo, permitindo diagnósticos precisos e ajudando a guiar decisões clínicas importantes.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-capsule text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Exames de Urina</h4>
+                            <p class="mb-4">Os exames de urina são essenciais para monitorar a saúde geral e detectar uma variedade de condições,
+                                desde infecções até problemas renais e metabólicos. Com análises detalhadas, esses testes oferecem informações
+                                valiosas sobre o funcionamento do seu corpo, ajudando no diagnóstico precoce e no acompanhamento de tratamentos.
+                                Cuide da sua saúde com precisão e confiança.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesUrinaModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesUrinaModal" tabindex="-1" aria-labelledby="examesUrinaModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesUrinaModalLabel">Mais sobre Exames de Urina</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>A urina é um fluido corporal produzido pelos rins que desempenha um papel crucial na eliminação de resíduos e toxinas do
+                                corpo. Além de ajudar na excreção de substâncias desnecessárias, a urina também é uma janela importante para a saúde
+                                interna, refletindo o funcionamento de vários sistemas do organismo.<br>                                
+                                A composição da urina pode variar de acordo com fatores como dieta, hidratação, atividade física e condições de saúde. É
+                                composta principalmente de água, mas também contém eletrólitos, ureia, creatinina, e outras substâncias que são
+                                subprodutos do metabolismo.<br>                                
+                                Os exames de urina (ou urinalise) são uma ferramenta diagnóstica comum e valiosa. Eles podem detectar uma ampla gama de
+                                condições, incluindo:<br>                                
+                                Infecções do trato urinário (ITU): A presença de bactérias, leucócitos (glóbulos brancos) e nitritos na urina pode
+                                indicar uma infecção.<br>
+                                Doenças renais: Proteínas, sangue ou células anormais na urina podem ser sinais de problemas nos rins.
+                                Diabetes: Altos níveis de glicose na urina podem indicar diabetes não controlada.<br>
+                                Problemas hepáticos: A presença de bilirrubina ou urobilinogênio pode sinalizar disfunção hepática.<br>
+                                Distúrbios metabólicos: Exames de urina podem detectar anormalidades metabólicas como cetonas (indicando cetoacidose) ou
+                                cristais (que podem sugerir formação de pedras nos rins).<br>
+                                A urina é coletada em um recipiente estéril e pode ser analisada de várias maneiras: exame físico (cor, clareza, odor),
+                                exame químico (pH, proteína, glicose) e exame microscópico (células, cristais, microrganismos). Esses testes ajudam os
+                                profissionais de saúde a obter uma visão abrangente do estado de saúde do paciente e a orientar o tratamento apropriado.<br>                                
+                                Em resumo, os exames de urina são um método simples, mas extremamente informativo, para avaliar a saúde geral,
+                                diagnosticar doenças e monitorar a eficácia dos tratamentos, contribuindo para um cuidado mais eficaz e personalizado.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-prescription2 text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Exames de Sangue</h4>
+                            <p class="mb-4">Os exames de sangue são fundamentais para uma avaliação abrangente da saúde. Eles ajudam a diagnosticar
+                                doenças, monitorar condições crônicas e avaliar o funcionamento de órgãos vitais. Com análises precisas, esses
+                                testes fornecem informações essenciais para a detecção precoce de problemas de saúde e para o acompanhamento eficaz
+                                dos tratamentos, promovendo cuidados personalizados e preventivos.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesSangueModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesSangueModal" tabindex="-1" aria-labelledby="examesSangueModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesSangueModalLabel">Mais sobre Exames de Sangue</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>O sangue é um tecido líquido vital que circula pelo corpo humano, desempenhando funções essenciais para a sobrevivência
+                                e o funcionamento adequado do organismo. Composto por células sanguíneas (glóbulos vermelhos, glóbulos brancos e
+                                plaquetas) suspensas em um fluido chamado plasma, o sangue tem várias funções cruciais.<br>                                
+                                Composição do Sangue:<br>
+                                Glóbulos Vermelhos (Eritrócitos): Responsáveis pelo transporte de oxigênio dos pulmões para os tecidos e pelo retorno do
+                                dióxido de carbono para ser expelido. Eles contêm hemoglobina, uma proteína rica em ferro que dá ao sangue sua cor
+                                vermelha.<br>
+                                Glóbulos Brancos (Leucócitos): Parte do sistema imunológico, esses células protegem o corpo contra infecções e invasores
+                                estranhos.<br>
+                                Plaquetas (Trombócitos): Essenciais para a coagulação do sangue, ajudando a prevenir sangramentos excessivos em caso de
+                                lesão.<br>
+                                Plasma: O componente líquido do sangue, composto principalmente por água, além de proteínas, eletrólitos, nutrientes,
+                                hormônios e resíduos metabólicos.<br>
+                                Funções do Sangue:<br>
+                                Transporte: O sangue transporta oxigênio dos pulmões para os tecidos e remove dióxido de carbono. Também distribui
+                                nutrientes absorvidos no sistema digestivo para as células e leva hormônios para órgãos e tecidos.<br>
+                                Regulação: Ajuda a regular a temperatura corporal, o equilíbrio do pH e a distribuição de fluidos no corpo.
+                                Proteção: O sangue protege o corpo contra infecções e doenças através da ação dos glóbulos brancos e da produção de
+                                anticorpos. As plaquetas e os fatores de coagulação previnem a perda de sangue em caso de ferimentos.<br>
+                                Exames de Sangue:<br>
+                                Exames de sangue são procedimentos diagnósticos rotineiros que oferecem uma visão detalhada da saúde do paciente. Alguns
+                                dos exames de sangue mais comuns incluem:<br>                                
+                                Hemograma Completo: Avalia os componentes do sangue, como glóbulos vermelhos, glóbulos brancos e plaquetas, ajudando a
+                                diagnosticar anemias, infecções e outras condições.<br>
+                                Perfil Lipídico: Mede os níveis de colesterol e triglicerídeos no sangue, avaliando o risco de doenças cardíacas.
+                                Teste de Glicose: Usado para diagnosticar e monitorar o diabetes.<br>
+                                Função Hepática e Renal: Avaliam o funcionamento do fígado e dos rins, respectivamente, através de enzimas e outros
+                                indicadores presentes no sangue.<br>
+                                Testes de Coagulação: Verificam a capacidade do sangue de coagular, importante para avaliar o risco de hemorragias ou
+                                tromboses.<br>
+                                Importância dos Exames de Sangue:<br>
+                                Exames de sangue são cruciais para detectar condições médicas precocemente, monitorar doenças crônicas, avaliar a
+                                resposta a tratamentos e identificar desequilíbrios metabólicos. Eles fornecem informações valiosas que ajudam os
+                                profissionais de saúde a tomar decisões informadas sobre o cuidado do paciente.<br>                                
+                                Em resumo, o sangue é essencial para a vida, desempenhando papéis críticos no transporte, regulação e proteção do
+                                organismo. Os exames de sangue são ferramentas poderosas para a manutenção da saúde e o diagnóstico preciso de diversas
+                                condições.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-clipboard2-pulse text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Teste do Pezinho: O Primeiro Passo para a Saúde do Bebê</h4>
+                            <p class="mb-4">O Teste do Pezinho é um exame simples e fundamental realizado nos primeiros dias de vida do bebê. Ele
+                                detecta precocemente diversas doenças genéticas e metabólicas, permitindo o início rápido do tratamento, se
+                                necessário. Esse teste é um cuidado essencial para garantir um desenvolvimento saudável e prevenir complicações
+                                futuras.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesPezinhoModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesPezinhoModal" tabindex="-1" aria-labelledby="examesPezinhoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesPezinhoModalLabel">Mais sobre Exames de Pezinho</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>O Teste do Pezinho é um exame neonatal realizado em recém-nascidos, geralmente entre o terceiro e o quinto dia de vida.
+                                Ele consiste na coleta de uma pequena amostra de sangue do calcanhar do bebê, que é então analisada para detectar a
+                                presença de várias doenças genéticas, metabólicas e hormonais. Essas condições, se não tratadas precocemente, podem
+                                causar problemas graves de saúde ou desenvolvimento.<br>                                
+                                As doenças mais comumente rastreadas pelo Teste do Pezinho incluem a fenilcetonúria, hipotireoidismo congênito, anemia
+                                falciforme, fibrose cística e deficiência de biotinidase, entre outras. Identificar essas condições logo após o
+                                nascimento permite que tratamentos ou intervenções sejam iniciados imediatamente, muitas vezes antes que os sintomas se
+                                manifestem, o que pode melhorar significativamente a qualidade de vida e o prognóstico da criança.<br>                                
+                                O Teste do Pezinho é considerado uma prática padrão de saúde pública em muitos países e é um componente essencial do
+                                cuidado neonatal, ajudando a garantir um início de vida mais seguro e saudável para os bebês.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-file-medical text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Testes de Alergia</h4>
+                            <p class="mb-4">Os testes de alergia são ferramentas importantes para identificar substâncias que desencadeiam reações
+                                alérgicas no corpo. Esses exames ajudam a diagnosticar alergias alimentares, respiratórias, de contato e outras,
+                                permitindo a criação de um plano de tratamento personalizado. Com resultados precisos, é possível evitar os
+                                alérgenos e melhorar significativamente a qualidade de vida.</p>
+                                <button type="button" class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#examesPezinhoModal">
+                                    Sobre o assunto <i class="bi bi-chevron-double-right ms-1"></i>
+                                </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="examesPezinhoModal" tabindex="-1" aria-labelledby="examesPezinhoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="examesPezinhoModalLabel">Mais sobre os Teste de alergias</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span><strong>Os testes de alergia são procedimentos médicos utilizados para identificar substâncias (alérgenos) que causam reações
+                                alérgicas em uma pessoa. Existem diferentes tipos de testes, como os testes cutâneos (prick test), que envolvem a
+                                aplicação de pequenas quantidades de alérgenos na pele para observar reações, e os exames de sangue, que medem a
+                                quantidade de anticorpos IgE específicos para determinados alérgenos.<br>                                
+                                Esses testes são fundamentais para o diagnóstico de diversas alergias, como alergias alimentares, respiratórias (pólen,
+                                poeira, pelos de animais), de contato (cosméticos, metais), e alergias a medicamentos ou picadas de insetos. Identificar
+                                a causa específica das alergias é essencial para que o médico possa recomendar um tratamento eficaz, que pode incluir
+                                evitar o alérgeno, medicações, ou em alguns casos, imunoterapia.<br>                                
+                                A realização de testes de alergia pode melhorar significativamente a qualidade de vida, permitindo que a pessoa evite os
+                                alérgenos que desencadeiam os sintomas e receba o tratamento adequado para controlar as reações alérgicas.</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid container-team py-5">
+        <div class="container pb-5">
+            <div class="row g-5 align-items-center mb-5">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid w-100" src="img/team-1.png" alt="">
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-3">Dr. Bruna Bertolotti Garbin Bolognini</h1>
+                    <p class="mb-1">CEO & Fundador</p>
+                    <p class="mb-5">Laboratório Bio Diagnóstico, Santa Rita do Passa Quatro, São Paulo</p>
+                    <h3 class="mb-3">Biografia</h3>
+                    <p class="mb-4">Um trechinho da minha trajetória até aqui!<br>
+                        Sou mãe dessa preciosidade que se chama Antonella, esposa, biomédica, líder e mulher. Vamos sempre equilibrando os
+                        pratinhos.</p>
+                    <p class="mb-4">No período de 2005 a 2008 me especializei na Biomedicina para habilitação em Patologia Clínica. Trabalhei como Biomédica
+                    na Unimed em Monte Alto/SP(cidade Natal do meu Marido). Em seguida nos casamos e fomos morar em Ribeirão; onde trabalhei
+                    em laboratório de análises clínicas como Biomédica, plantonista e banco de sangue.<br>                    
+                    Em 2013 realizei Licenciatura em Biologia. Com o início da licenciatura pude ministrar aulas teóricas e práticas no
+                    curso de técnico de laboratório CEPROSIND (onde foi uma experiência maravilhosa me realizando profissionalmente).<br>                    
+                    Após ter conseguido essa bagagem profissional resolvi junto com meu marido realizar meu sonho de ter meu próprio
+                    laboratório em minha cidade natal.<br>                    
+                    E desde então (já se fazem 10 anos) estamos aqui em Santa Rita do Passa Quatro. Conhecemos pessoas maravilhosas, algumas
+                    se tornaram amigas, nossa equipe cresceu e sim; estou muito realizada e grata por ter chegado até aqui.<br>                    
+                    Nós como família queremos agradecer a cada um e dizer que você também faz parte dessa família! Tudo é por vocês!</p>
+                    <div class="d-flex">
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-2.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Melissa Simionato</h5>
+                            <span>Reponsável Técnica</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-3.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Flavia Buscariollo</h5>
+                            <span>Biomédico Responsável</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-4.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Natalia Gomes</h5>
+                            <span>Técnica de Laboratório</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-5.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Rosana Santana</h5>
+                            <span>Recepcionista</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid testimonial py-5">
+        <div class="container pt-5">
+            <div class="row gy-5 gx-0">
+                <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 text-white mb-4">O que os clientes dizem sobre nossos serviços de laboratório!</h1>
+                    <p class="text-white mb-5">Nossos clientes são a melhor prova da qualidade e precisão dos nossos serviços de
+                        laboratório. Eles confiam em nossa expertise para obter diagnósticos rápidos e precisos, e suas experiências
+                        positivas refletem nosso compromisso com a excelência. Veja o que eles têm a dizer sobre como ajudamos a cuidar da
+                        saúde deles com profissionalismo e dedicação.</p>
+                    <!-- <a href="" class="btn btn-primary py-3 px-5">Mais depoimentos</a> -->
+                </div>
+                <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white p-5">
+                        <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                            <div class="testimonial-item">
+                                <div class="icon-box-primary mb-4">
+                                    <i class="bi bi-chat-left-quote text-dark"></i>
+                                </div>
+                                <p class="fs-5 mb-4">Oi meninas, escrevi uma pequena cartinha mas é com todo meu coração. Vocês são uma equipe e tanto! Encho o saco de vocês
+                                quase todo santo dia para pegar material e vocês sempre são incriveis comigo.<br>
+                                Este é meu primeiro emprego e estou tendo a melhor experiência de todas graças a atençâo e carisma de vocês, muito
+                                obrigada por tudo.<br>
+                                Desde o primeiro contato que tive senti uma vibração incrível da Marcellinha nossa gestante, da Ro, thais, Naty, Pri...
+                                enfim! Vocês são pefeitas no que fazem.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0" src="img/testimonial-1.png" alt="">
+                                    <div class="ps-3">
+                                        <h5 class="mb-1">Dra. Olivia S. Cretelli</h5>
+                                        <span class="text-primary">Consultório Médico</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="icon-box-primary mb-4">
+                                    <i class="bi bi-chat-left-quote text-dark"></i>
+                                </div>
+                                <p class="fs-5 mb-4">Agradeço muito a atenção e o atendimento de vocês é excelente!!<br>
+                                Queria até elogiar as enfermeiras que coletaram o sangue do meu filho( 2 meses ele tem), que foram extremamente
+                                atenciosas,pacientes e trataram ele muito bem, mesmo dando muito trabalho na coleta!</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0" src="img/testimonial-2.png" alt="">
+                                    <div class="ps-3">
+                                        <h5 class="mb-1">Ana Júlia</h5>
+                                        <span class="text-primary">Paciente</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid footer bg-white  py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-4">Garantimos que você sempre obterá o melhor resultado</h1>
+                    <p class="mb-4">Comprometidos com a excelência, trabalhamos incansavelmente para assegurar que cada exame realizado ofereça
+                        resultados precisos e confiáveis. Nossa prioridade é garantir que você receba o melhor atendimento e os diagnósticos
+                        mais precisos, porque sua saúde merece nada menos que o melhor.</p>
+
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-geo-alt text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Nosso Endereço</h5>
+                            <span>R.Inácio Ribeiro, 193 - Centro, Santa rita do Passa Quatro, São Paulo</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-clock text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Horário do Laboratório</h5>
+                            <span>Segunda-Sexta 06am-17pm, Sabado 06:30am-10:00am</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="mb-4">Consulta on-line</h2>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Seu Nome</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Seu E-mail</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">Numero de Contato</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="service">
+                                    <option selected>Teste de Patologia</option>
+                                    <option value="Microbiology Tests">Testes de Microbiologia</option>
+                                    <option value="Biochemistry Tests">Testes de Bioquímica</option>
+                                    <option value="Histopatology Tests">Testes Histopatológicos</option>
+                                </select>
+                                <label for="service">Selecione os Serviços</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px"></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit" id="submitBtn">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid copyright bg-primary text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">Laboratório Bio Diagnóstico</a>. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Projetado por <a href="#">Anderson Camilo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
