@@ -103,7 +103,7 @@
             var service = $('#service').val();
             var message = $('#message').val();
 
-            var whatsappNumber = '5519997921937'; // Substitua pelo número de telefone com código do país
+            var whatsappNumber = '551935824570'; // Substitua pelo número de telefone com código do país
 
             var url = 'https://api.whatsapp.com/send?phone=' + whatsappNumber +
                 '&text=Olá, meu nome é ' + encodeURIComponent(name) +
